@@ -1,0 +1,14 @@
+BARRAMENTO
+BNEX
+Iniciando pelo banco barramento as alterações devem seguir a ordem:
+1 - Derrubar pods de integração de clientes 'bnex-clientes'
+2 - executar os comandos na pasta barramento/bnex/TB_CUSTOMER_INTEGRATION.sql em ordem
+3 - executar o arquivo barramento/bnex/pc_integracao.sp_customer.sql
+4 - Subir pods da integração de clientes
+5 - validar execução
+6 - ATENÇÃO: a mudança do campo vai alterar a hash dos clientes, gerando um reprocessamento grande
+
+AIQFOME
+1 - Executar o arquivo aiqfome/aiqfome.pc_integracao.sp_pedido_criado.sql
+A intgeração não esta em prd, risco 0
+

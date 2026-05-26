@@ -1,0 +1,18 @@
+LABPRD
+KAFKA
+1 - Derrubar os Pods de integração integra-cupom...
+2 - Executar o arquivo labprd/kafka/pf_loja.sql em ordem
+3 - Subir pods de integração de vendas
+
+STOREMATE
+1 - Executar o arquivo labprd/storemate/tb_collaborator.sql
+2 - executar o arquivo labprd/storemate/sp_load_collaborators.sql
+3 - executar no BANCO RH OWNER SENIOR arquivo rh/senior/tb_storemate_collaborators
+4 - executar no BANCO RH OWNER SENIOR arquivo rh/senior/SP_HASH_STOREMATE
+5 - Alterar integração n8n mate - carga colaboradores - tipagem do campo
+linha 15
+https://supermercadospaguemenos-my.sharepoint.com/:x:/r/personal/bruno_vasconcelos_supermercadospaguemenos_com_br/_layouts/15/Doc.aspx?sourcedoc=%7B7C94F9FC-080F-496B-949A-DBC9D042A690%7D&file=N8N%20-%20Mudan%C3%A7as%20CPF%20CNPJ.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&wdOrigin=OFFICECOM-WEB.REDIRECT%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=4a43bfa5-d632-4708-9da8-61d30bb57377&wdPreviousSessionSrc=AppHomeWeb&ct=1779830077452
+6 - Executar a integração e validar a execução
+7 - validação no MATE, funções 
+planilha storemate
+link: https://supermercadospaguemenos-my.sharepoint.com/:x:/r/personal/bruno_vasconcelos_supermercadospaguemenos_com_br/_layouts/15/Doc.aspx?sourcedoc=%7BC7ECD724-03DB-4D7C-90ED-FE2AB1B83209%7D&file=CpfCnpj%20-%20LABPRD.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&wdOrigin=OFFICECOM-WEB.REDIRECT%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=4a43bfa5-d632-4708-9da8-61d30bb57377&wdPreviousSessionSrc=AppHomeWeb&ct=1779807971377
