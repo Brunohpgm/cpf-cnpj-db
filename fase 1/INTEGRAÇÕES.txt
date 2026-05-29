@@ -1,0 +1,61 @@
+
+
+
+INTEGRACOES 
+CONDUCTOR
+
+1 - Remover o TO_NUMBER na consulta dos seguintes módulos no integraSky
+Links:
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/2_XUeli4M_
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/cUJ_CUq965
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/ENF2t1Splb
+
+
+
+2 - Alterar o tipo da variavel CPF para texto  
+e
+    Inserir aspas simples nas variaveis correspondentes ao CPF no insert
+Links: 
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/MzVH1njmCo
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/pCLLN576Wr
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/jj4HUmcxLK (retidcartao)
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/Hny2sqcAcm (retCpf)
+https://studio.skyone.cloud/modules/bJQ4k9dQKG/operations/Hdq5-mcg0i (retCpf)
+
+
+3 - executar o arquivo integrações/conductor/tb_integracao_senior
+
+4 - validar as integrações conductor 
+https://studio.skyone.cloud/integrations/13xAGWRs/flows/nPPNFCvGj6
+https://studio.skyone.cloud/integrations/13xAGWRs/flows/elhQmZ2FaF
+https://studio.skyone.cloud/integrations/13xAGWRs/flows/ySX0DvwsQL
+https://studio.skyone.cloud/integrations/13xAGWRs/flows/wedTTPElU5
+https://studio.skyone.cloud/integrations/13xAGWRs/flows/Ulp5Tmomen
+https://studio.skyone.cloud/integrations/13xAGWRs/flows/1nXQTIOqtR
+
+
+ATIVMOB
+1 -  executar o arquivo integrações/ativmob/tb_pedido.sql
+2 - validar integração entregas atacado no InegraSky
+Link: https://studio.skyone.cloud/integrations/IlX8qTXDrL/flows/a7X72M0CBM
+
+3 - executar o arquivo integrações/ativmob/TB_PEDIDO_ECOMPDV.sql
+4 - validar dmbs job 300
+5 - validar integração dispara pedidos ecommerce e pdv no InegraSky
+Link: https://studio.skyone.cloud/integrations/IlX8qTXDrL/flows/Q6l9OCUVIK
+
+SAP 
+1 - Executar arquivo integrações/sap/TB_STM_USUARIOS.sql
+2 - validar login storemanager e cadastro 
+3 - enviar procedure para o time de governança
+CALL SAP.SP_CADASTRA_ATUALIZA_USR_STOREMANAGER(PAR_CPF     => LPAD('748072808',
+                                                                   11,
+                                                                   '0'), --evita input de cpf sem zero a esquerda
+                                               PAR_NOME    => 'BRUNO HENRIQUE DE VASCONCELOS',
+                                               PAR_APELIDO => 'BRUNO',
+                                               PAR_LOGIN   => 'BRUNO.Teste',
+                                               PAR_EMPRESA => '32')
+
+4 - Executar arquivo integrações/sap/vw_inbound_bp.sql
+5 - validar exec da view
+
