@@ -33,7 +33,7 @@ https://studio.skyone.cloud/integrations/13xAGWRs/flows/wedTTPElU5
 https://studio.skyone.cloud/integrations/13xAGWRs/flows/Ulp5Tmomen
 https://studio.skyone.cloud/integrations/13xAGWRs/flows/1nXQTIOqtR
 
-
+----------------------------------------------------------------------------------------------------
 ATIVMOB
 1 -  executar o arquivo integrações/ativmob/tb_pedido.sql
 2 - validar integração entregas atacado no InegraSky

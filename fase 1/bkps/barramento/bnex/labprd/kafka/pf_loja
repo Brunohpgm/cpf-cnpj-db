@@ -1,0 +1,1 @@
+create table kafka.bkp_pf_loja as( SELECT * FROM KAFKA.PF_LOJA);

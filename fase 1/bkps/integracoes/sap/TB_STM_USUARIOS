@@ -1,0 +1,1 @@
+create table SAP.bkp_TB_STM_USUARIOS as (select * from SAP.TB_STM_USUARIOS)

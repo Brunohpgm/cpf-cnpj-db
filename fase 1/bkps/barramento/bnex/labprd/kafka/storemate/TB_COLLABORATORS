@@ -1,0 +1,1 @@
+create table storemate.bkp_TB_COLLABORATORS as( select * from storemate.TB_COLLABORATORS)

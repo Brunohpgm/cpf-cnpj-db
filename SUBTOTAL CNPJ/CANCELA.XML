@@ -1,0 +1,34 @@
+<Fideliz>
+    <tipo_acesso>1</tipo_acesso>
+    <id_acesso>950</id_acesso>
+    <dados>
+        <cod_loja>4</cod_loja>
+        <num_pdv>155</num_pdv>
+        <num_docum>43</num_docum>
+        <tipo_venda>9</tipo_venda>
+        <id_cliente>51799057000133</id_cliente>
+        <num_itens>1</num_itens>
+        <itens>
+            <item>
+                <posicao>1</posicao>
+                <codigo>2001230000000</codigo>
+                <quantidade>1.000</quantidade>
+                <valor_unitario>64.99</valor_unitario>
+                <valor_total>64.99</valor_total>
+            </item>
+        </itens>
+        <finalizadoras>
+            <finalizadora>
+                <posicao>1</posicao>
+                <valor>64.99</valor>
+                <cartao></cartao>
+                <qtdparcelas>0</qtdparcelas>
+                <bin></bin>
+                <codigo>1</codigo>
+            </finalizadora>
+        </finalizadoras>
+        <retornapontos>1</retornapontos>
+        <operador>1000</operador>
+        <data_venda>10062026</data_venda>
+    </dados>
+</Fideliz>

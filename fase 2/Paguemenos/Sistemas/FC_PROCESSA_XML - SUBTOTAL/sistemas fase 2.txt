@@ -1,0 +1,8 @@
+--processo de cadastro lead do cartao levemais---
+
+1 - executar arquivos na pasta fase2/paguemenos/sistemas/DBMS JOB 6
+2 - executar dbms job 6.sql    
+3 - executar sp_cadastra_cartao_levemais.sql
+4 - validar status da procedure e exec do job 6
+
+

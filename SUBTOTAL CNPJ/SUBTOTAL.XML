@@ -1,0 +1,22 @@
+<Fideliz>
+    <tipo_acesso>1</tipo_acesso>
+    <id_acesso>948</id_acesso>
+    <dados>
+        <cod_loja>4</cod_loja>
+        <num_pdv>155</num_pdv>
+        <num_docum>43</num_docum>
+        <tipo_venda>0</tipo_venda>
+        <id_cliente>0000051799057000133</id_cliente>
+        <num_itens>1</num_itens>
+        <itens>
+            <item>
+                <posicao>1</posicao>
+                <codigo>123</codigo>
+                <quantidade>1.000</quantidade>
+                <valor_unitario>64.99</valor_unitario>
+                <valor_total>64.99</valor_total>
+            </item>
+        </itens>
+        <cupompromos />
+    </dados>
+</Fideliz>

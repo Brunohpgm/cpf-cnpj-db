@@ -1,0 +1,1 @@
+create table senior.bkp_TB_STOREMATE_COLLABORATORS_HASH as (select * from senior.TB_STOREMATE_COLLABORATORS_HASH)

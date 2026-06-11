@@ -1,0 +1,1 @@
+create table ativmob.bkp_TB_PEDIDO as (select * from ATIVMOB.TB_PEDIDO)

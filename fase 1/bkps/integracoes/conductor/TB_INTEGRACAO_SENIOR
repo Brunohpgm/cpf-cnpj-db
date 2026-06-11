@@ -1,0 +1,1 @@
+create table conductor.bkp_TB_INTEGRACAO_SENIOR as (select * from conductor.TB_INTEGRACAO_SENIOR)
