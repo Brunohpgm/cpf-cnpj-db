@@ -1,0 +1,12 @@
+INICIAR PROCESSO DOMINGO AS 20:30 APÓS FECHAMENTO DAS LOJAS
+
+--========================================Primeira etapa========================================
+--==============================================================================================
+1 - INICIAR AS ALTERAÇÕES PELA PASTA DBMS JOB 6, EXECUTAR A ALTERAÇÃO NO JOB E NA PROCEDURE
+2 - VALIDAR O PROCESSO
+
+--========================================Segunda etapa=========================================
+--==============================================================================================
+1 - EXECUTAR TODO O PASSO A PASSO NO ARQUIVO TB_PESSOA.SQL 
+2 - EXECUTAR ARQUIVOS NA PASTA FC_PROCESSA_XML, INICIANDO PELAS TABELAS TM_
+
